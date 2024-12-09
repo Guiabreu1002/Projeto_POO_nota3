@@ -60,5 +60,5 @@ Este é um sistema de gerenciamento de SuperMercado em Java, o sistema permite r
 - **Remover Cliente**: Permite o adm remover clientes.
 - **Vender Produto**: Permite o Cliente comprar um produto, gerando uma nota e adicionando no historico, tambem decrementando a quantidade do produto no estoque.
 
-## Diagrama do Projeto
+## Diagrama do Projeto, clique para ter uma visão melhor!
 ![projetoVirtualMarket2 0 drawio](https://github.com/user-attachments/assets/b85193c8-9801-4762-917d-cac9cb991468)
