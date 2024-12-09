@@ -11,21 +11,25 @@ Este é um sistema de gerenciamento de SuperMercado em Java, o sistema permite r
 - **Usuario**: Classe abstrata que define os atributos comuns a `Cliente` e `Adm`.
 - **Cliente**: Extende `Usuario` e implementa a interface `ICliente`.
 - **Adm**: Extende `Usuario` e implementa a interface `IAdm`.
-- **Carrinho**: Classe que gera um array de `produtos`.
+- **Carrinho**: Classe que gera um array de `produtos` e implementa a interface `ICarrinho`.
 - **Produto**: Classe abstrata que define os atributos comuns a `ProdutoPerecivel` e `ProdutoNaoPerecivel`.
 - **ProdutoPerecivel**: Extende `Produto`.
 - **ProdutoNaoPerecivel**: Extende `Produto`.
 - **Pagamento**: Classe abstrata que armazena o valor, a forma e status de uma transação.
 - **Pedido**: Extende `Pagamento` e adiciona ao historico.
-- **VirtualMarket**: Classe que contem o estoque e o `controller`.
+- **VirtualMarket**: Classe que contem o estoque e o `controller` e implementa a interface `IVirtualMarket`.
 
 ## Controller
 
-- **UsuarioController**: Classe que faz verificações e validações de dados e informações enviados do `Main`.
+- **UsuarioController**: Classe que faz verificações e validações de dados e informações enviados do `Main` e implementa a interface `IController`.
 
 ## View
 
-- **VirtualMarketView**: Classe que retorna dados e valores solicitados pelo usuario no `Main`.
+- **VirtualMarketView**: Classe que retorna dados e valores solicitados pelo usuario no `Main` e implementa a interface `IVirtualMarketView`.
+
+## DAO
+
+- **DAO**: Classe que contem os banco De Dados de cliente e adm e implementa a interface `IDAO`.
 
 ## Contracts
 
