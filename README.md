@@ -61,3 +61,4 @@ Este é um sistema de gerenciamento de SuperMercado em Java, o sistema permite r
 - **Vender Produto**: Permite o Cliente comprar um produto, gerando uma nota e adicionando no historico, tambem decrementando a quantidade do produto no estoque.
 
 ## Diagrama do Projeto
+![image](https://github.com/user-attachments/assets/61cffabd-5c20-4913-81a8-7a22a9737566)
